@@ -1,8 +1,8 @@
 // Variables for position and speed of ball
 let x = 100;
 let y = 100;
-let xspeed = 2.5;
-let yspeed = 2;
+let xspeed = 5;
+let yspeed = 5;
 
 function setup() {
   createCanvas(1000, 600);
@@ -24,5 +24,5 @@ function draw() {
   // Draw the ball at the position (x, y).
   stroke(0);
   fill(127);
-  circle(x, y, 48);
+  circle(x, y, 60);
 }
